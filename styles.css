@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: "Cinzel", sans-serif;
+}
+
+h1 {
+    font-family: "Stalinist One", sans-serif;
+    letter-spacing: 3px;
+    color: orangered;
+}
+
+.headerBg {
+    background-color: rgba(39, 39, 39, 0.5);
+    border: 3px solid black;
+}
+
+.thor{
+    transition: transform .3s ;
+}
+.thor:hover {
+    transform: scale(1.05);
+}
